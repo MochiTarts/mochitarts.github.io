@@ -1,0 +1,128 @@
+.nav {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #66fcf1;
+    width: 100%;
+    padding: 12px 20px 6px 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    height: 31px;
+}
+
+#myNav {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-inverse {
+    background-color: #0b0c10;
+}
+
+.nav-inverse .nav-link {
+    color: #c5c6c7;
+}
+
+.nav-links {
+    width: 100%;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-inverse .nav-link:hover {
+	border-bottom: solid 1px #66fcf1;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #0b0c10;
+    border-bottom: solid 1px transparent;
+    -webkit-transition: 0.5s;
+	transition: 0.5s;
+    text-decoration: none;
+    padding: 0;
+}
+
+.nav-link:hover {
+	border-bottom: solid 2px #c5c6c7;
+    cursor: pointer;
+}
+
+
+
+.hamburger {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    z-index: 1;
+    font-size: 30px;
+    color: #0b0c10;
+    cursor: pointer;
+}
+
+.nav-inverse-mobile {
+    color: #66fcf1;
+}
+
+.nav-inverse-mobile .nav-link {
+    color: #0b0c10;
+}
+
+.nav-inverse-mobile .nav-link:hover {
+	border-bottom: solid 1px #0b0c10;
+    cursor: pointer;
+}
+
+#myNav {
+    display: block;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0b0c10;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}

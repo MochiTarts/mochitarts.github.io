@@ -1,0 +1,81 @@
+footer {
+    height: 50px;
+    background: #0b0c10;
+    //background: rgb(26, 26, 46);
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 100px;
+    color: #66fcf1;
+}
+
+footer h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+footer .email {
+    font-weight: bolder;
+    font-size: 15px;
+    color: #c5c6c7;
+}
+
+.footer-container {
+    box-sizing: border-box;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 25px;
+}
+ 
+.footer-underline {
+    border: solid #66fcf1 1px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.icons {
+    color: #c5c6c7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.icons:hover {
+    color: #66fcf1;
+}
+
+.footer-final-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 0px;
+    margin: auto;
+    width: 100%;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #c5c6c7;
+}
+
+@media screen and (max-width: 550px) {
+    
+footer h2 {
+    font-size: 18px;
+}
+
+footer .email {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-final-text {
+    font-size: 12px;
+}
+
+}

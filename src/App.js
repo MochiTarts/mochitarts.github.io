@@ -1,0 +1,34 @@
+import logo from './logo.svg';
+import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Navbar, Footer, Contact } from './common';
+import { Home, Projects } from './pages';
+import Alert from '@material-ui/lab/Alert';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+function App() {
+  React.useEffect(() => {
+    AOS.init({
+        delay: 100,
+        duration: 1500,
+        once: true,
+        anchorPlacement: 'top-bottom',
+    });
+  }, []);
+
+  return (
+    <div>
+      <BrowserRouter>
+        <Navbar />
+        <Home />
+        <Projects />
+        <Contact />
+        <Footer />
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
