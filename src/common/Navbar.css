@@ -36,7 +36,7 @@
 }
 
 .nav-inverse .nav-link:hover {
-	border-bottom: solid 1px #66fcf1;
+	border-bottom: solid 1px #c5c6c7;
     cursor: pointer;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .nav-link:hover {
-	border-bottom: solid 2px #c5c6c7;
+	border-bottom: solid 2px #0b0c10;
     cursor: pointer;
 }
 

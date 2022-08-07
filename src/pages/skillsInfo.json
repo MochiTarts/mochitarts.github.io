@@ -1,0 +1,97 @@
+[
+    {
+        "title": "Languages",
+        "data": [
+            {
+                "name": "Typescript/Javascript"
+            },
+            {
+                "name": "HTML/CSS"
+            },
+            {
+                "name": "Python"
+            },
+            {
+                "name": "Java"
+            },
+            {
+                "name": "GraphQL"
+            }
+        ]
+    },
+    {
+        "title": "Frameworks/Libraries",
+        "data": [
+            {
+                "name": "React"
+            },
+            {
+                "name": "Angular"
+            },
+            {
+                "name": "Django"
+            },
+            {
+                "name": "Flask"
+            },
+            {
+                "name": "Spring Boot"
+            },
+            {
+                "name": "Numpy"
+            },
+            {
+                "name": "Scikit-Learn"
+            },
+            {
+                "name": "Apollo"
+            }
+        ]
+    },
+    {
+        "title": "Tools/Software",
+        "data": [
+            {
+                "name": "VSCode"
+            },
+            {
+                "name": "Git"
+            },
+            {
+                "name": "Microsoft 365"
+            },
+            {
+                "name": "Photoshop"
+            },
+            {
+                "name": "Postman"
+            },
+            {
+                "name": "Jira"
+            },
+            {
+                "name": "Azure DevOps"
+            },
+            {
+                "name": "Docker"
+            },
+            {
+                "name": "Google Cloud Platform"
+            }
+        ]
+    },
+    {
+        "title": "Databases",
+        "data": [
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "PostgreSQL"
+            },
+            {
+                "name": "SQLite"
+            }
+        ]
+    }
+]
