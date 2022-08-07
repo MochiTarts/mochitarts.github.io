@@ -131,7 +131,7 @@
 
 .about-me-container {
     margin-top: 25px;
-    //padding-bottom: 75px;
+    padding-bottom: 75px;
     margin-left: 75px;
     margin-right: 75px;
     //padding: 0px 10px 100px 10px;
@@ -182,7 +182,7 @@
 }
 /* ABOUT */
 
-@media screen and (max-width: 422px) {
+@media screen and (max-width: 421px) {
 
 .title-wrapper h1 {
     line-height: 2.5rem;

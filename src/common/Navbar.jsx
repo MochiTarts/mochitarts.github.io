@@ -18,16 +18,6 @@ const goToTop = (isMobile) => {
     }
 };
 
-const goToAbout = (isMobile) => {
-    const el = document.getElementById('about');
-    el.scrollIntoView({
-        behaviour: 'smooth'
-    });
-    if (isMobile) {
-        document.getElementById('myNav').style.width = '0%';
-    }
-};
-
 const goToSkills = (isMobile) => {
     const el = document.getElementById('skills');
     el.scrollIntoView({
@@ -37,6 +27,16 @@ const goToSkills = (isMobile) => {
         document.getElementById('myNav').style.width = '0%';
     }
 };
+
+const goToExperience = (isMobile) => {
+    const el = document.getElementById('experience');
+    el.scrollIntoView({
+        behaviour: 'smooth'
+    });
+    if (isMobile) {
+        document.getElementById('myNav').style.width = '0%';
+    }
+}
 
 const useScrollHandler = () => {
     const [scroll, setScroll] = React.useState(false);
@@ -89,7 +89,7 @@ const Navbar = () => {
                     <Link className="nav-link" to="" onClick={() => goToSkills(isMobile)}>Skills</Link>
                 </span>
                 <span className="nav-item">
-                    <Link className="nav-link" to="">Experience</Link>
+                    <Link className="nav-link" to="" onClick={() => goToExperience(isMobile)}>Experience</Link>
                 </span>
                 <span className="nav-item">
                     <Link className="nav-link" to="">Projects</Link>
@@ -106,7 +106,7 @@ const Navbar = () => {
                     <div class="overlay-content">
                         <Link to="" onClick={() => goToTop(isMobile)}>Home</Link>
                         <Link to="" onClick={() => goToSkills(isMobile)}>Skills</Link>
-                        <Link to="">Experience</Link>
+                        <Link to="" onClick={() => goToExperience(isMobile)}>Experience</Link>
                         <Link to="">Projects</Link>
                         <Link to="">Contact</Link>
                     </div>

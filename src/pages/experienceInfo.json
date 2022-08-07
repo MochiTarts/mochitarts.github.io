@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Software Engineer Intern",
+        "company": "Microsoft",
+        "date": "May 2022 - July 2022",
+        "desc": "Assisted with building closed captions for Microsoft Teams video chat."
+    },
+    {
+        "title": "Contract Fullstack Developer",
+        "company": "Final Fantasy: Brave Exvius Project",
+        "date": "Jan 2022 - Apr 2022",
+        "desc": "Member of a startup project to create an improved database guide for the mobile gacha game Final Fantasy: Brave Exvius."
+    },
+    {
+        "title": "Software Engineer Intern",
+        "company": "Microsoft",
+        "date": "Sept 2021 - Dec 2021",
+        "desc": "Implemented fullscreen detection for Microsoft Teams video chat, worked with OMG BigPark Partners Video Experience."
+    },
+    {
+        "title": "Fullstack Developer Co-op",
+        "company": "UTSC: The Bridge",
+        "date": "Jan 2021 - Apr 2021",
+        "desc": "Worked with a team of 4 student developers to build the Find Dining website for the City of Toronto."
+    },
+    {
+        "title": "Quality Engineer Co-op",
+        "company": "RBC",
+        "date": "Jan 2021 - Apr 2021",
+        "desc": "First co-op, worked with QE team on testing a credit/mortgage API through manual—but mostly automation testing."
+    },
+    {
+        "title": "Platform Development Associate",
+        "company": "Forvera Health",
+        "date": "Sept 2019 - Jan 2020",
+        "desc": "Researched scheduling APIs for patient booking and assisted in building the platform for a new optical care startup."
+    }
+]

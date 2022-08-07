@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navbar, Footer, Contact } from './common';
-import { Home, Skills, Projects } from './pages';
+import { Home, Skills, Experience, Projects } from './pages';
 import Alert from '@material-ui/lab/Alert';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,6 +24,7 @@ function App() {
         <Navbar />
         <Home />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
         <Footer />

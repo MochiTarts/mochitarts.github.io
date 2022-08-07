@@ -1,0 +1,30 @@
+.experience-summary-container {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 75px;
+}
+
+#experience-title Button {
+	border-radius: 5px;
+	height: fit-content;
+	background-color: #0b0c10;
+	color: #c5c6c7;
+	border: solid #66fcf1 2px;
+	cursor: pointer;
+	margin: 0px 10px 0px 0px;
+}
+
+#experience-title Button:hover {
+    background-color: #c5c6c7;
+    color: #0b0c10;
+    border: solid #0b0c10 2px;
+}
+
+@media screen and (max-width: 900px) {
+
+.experience-summary-container {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+}

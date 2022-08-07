@@ -4,6 +4,7 @@ import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 import { Grid, Card } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
 import { useMediaQuery } from "../common";
+import Typography from '@material-ui/core/Typography';
 import anime from 'animejs';
 import aboutInfo from "./about.json";
 import './Home.css';
@@ -35,25 +36,15 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: 'none',
     backgroundColor: 'transparent',
     color: '#c5c6c7',
-    '& h2': {
-      color: '#66fcf1',
-    },
     '& ul': {
       paddingLeft: 20,
     },
-    '& li': {
-      fontSize: 15.5,
-      listStyleType: 'square',
-    },
     '& li:not(:last-child)': {
-      marginBottom: 10,
+      marginBottom: '10px',
     },
     ['@media (max-width:550px)']: {
-      '& h2': {
-        fontSize: 25,
-      },
-      '& li': {
-        fontSize: 14,
+      '& .MuiTypography-body1': {
+        fontSize: '14px',
       }
     }
   }
@@ -140,12 +131,18 @@ const Home = (props) => {
               about.map(section => (
                 <Grid item sm={4}>
                   <Card className={classes.aboutCard} square={true} data-aos="fade-up">
-                    <h2>{ section.title }</h2>
+                    <Typography variant="h5" style={{ color: '#66fcf1', textAlign: 'center' }}>
+                      { section.title }
+                    </Typography>
                     <div className="list-container">
                       <ul>
                         {
                           section.points.map(point => (
-                            <li>{point}</li>
+                            <li>
+                              <Typography variant="body1">
+                                {point}
+                              </Typography>
+                            </li>
                           ))
                         }
                       </ul>

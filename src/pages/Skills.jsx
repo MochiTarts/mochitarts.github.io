@@ -1,9 +1,7 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
-import { Grid, Card } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core/styles';
-import { useMediaQuery } from "../common";
+import Typography from '@material-ui/core/Typography';
 import skillsInfo from './skillsInfo.json';
 import './Skills.css';
 
@@ -45,7 +43,9 @@ const Skills = () => {
                         {
                             skills.map((section) => (
                                 <Grid item xs={12}>
-                                    <h2>{section.title}</h2>
+                                    <Typography variant="h5" style={{ color: '#66fcf1', marginBottom: '5px' }}>
+                                        { section.title }
+                                    </Typography>
                                     {
                                         section.data.map((point) => (
                                             <span>{point.name}</span>
