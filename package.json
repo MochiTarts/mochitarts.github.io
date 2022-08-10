@@ -1,8 +1,8 @@
 {
   "name": "mochitarts.github.io",
   "version": "0.1.0",
-  "homepage": "https://mochitarts.github.io/react-gh-pages",
-  "private": true,
+  "homepage": "https://MochiTarts.github.io/react-gh-pages",
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
