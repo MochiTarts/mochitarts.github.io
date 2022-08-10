@@ -1,7 +1,7 @@
 {
   "name": "mochitarts.github.io",
   "version": "0.1.0",
-  "homepage": "https://MochiTarts.github.io/react-gh-pages",
+  "homepage": "https://mochitarts.github.io",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
