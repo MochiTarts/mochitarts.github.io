@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Scikit-Learn",
+        "image": "/assets/scikit-learn.jpeg",
+        "tech": "Python, Numpy, MatPlotLib, Scikit-Learn",
+        "desc": "Built and tested a bisecting k-means model in a team of 6 for the popular open-source machine learning library.",
+        "github": "https://github.com/MochiTarts/course-project-hexad01/blob/master/a4/Modified%20Files/_bisecting_k_means.py",
+        "link": ""
+    },
+    {
+        "title": "Image Cleaner",
+        "image": "/assets/image_cleaner.png",
+        "tech": "Python, Numpy, MatPlotLib, Jupyter Notebook",
+        "desc": "A simple image cleaner that removes unwanted text using RBF regression. For course integrity, I will not share my source code, but will share the before/after image results instead.",
+        "github": "",
+        "link": "/assets/before_after.png"
+    },
+    {
+        "title": "Find Dining",
+        "image": "/assets/finddining.png",
+        "tech": "Python, Typescript, Django, Angular, MongoDB",
+        "desc": "A website that promotes Scarborough restaurants to assist them through COVID-19.",
+        "github": "https://github.com/MochiTarts/Find-Dining-The-Bridge",
+        "link": "https://finddining.ca/"
+    },
+    {
+        "title": "Portfolio Site",
+        "image": "/assets/portfoliosite.png",
+        "tech": "Typescript, HTML, CSS, Javascript, Angular, React",
+        "desc": "My personal portfolio website. Has gone through various stages of evolution, from vanilla HTML/CSS/JS, to Angular, to React.",
+        "github": "https://github.com/MochiTarts/mochitarts.github.io-react",
+        "github2": "https://github.com/MochiTarts/mochiTarts.github.io",
+        "github3": "https://github.com/MochiTarts/MochiTarts.github.io-old-",
+        "link": ""
+    },
+    {
+        "title": "Doodle Jump",
+        "image": "/assets/doodlejump_features.png",
+        "tech": "MIPS, Assembly",
+        "desc": "A platform jumping game based on doodlejump. Created entirely in MIPS assembly code.",
+        "github": "https://github.com/MochiTarts/Doodlejump-CSCB58",
+        "link": "https://www.youtube.com/watch?v=pu_7P333Z-Y"
+    },
+    {
+        "title": "U-Impactify",
+        "image": "/assets/uimpact_logo.png",
+        "tech": "Java, Spring Boot, PostgreSQL, Jira, Postman",
+        "desc": "An online learning platform targeted towards Social Iniatives and Organizations, to help improve their infrastructure, operations, and expand their numbers.",
+        "github": "https://github.com/MochiTarts/coding-lads-uimpactify",
+        "link": ""
+    },
+    {
+        "title": "MOOD",
+        "image": "/assets/mood.png",
+        "tech": "Javascript, Node.js, HTML, CSS",
+        "desc": "A sentiment analysis webapp that will generate a list of movies, gifs, and music to accomodate your current mood.",
+        "github": "https://github.com/fjij/hack-western-2019-api",
+        "github2": "https://github.com/fjij/hack-western-2019-ui",
+        "link": "https://devpost.com/software/mood-o67ce1"
+    },
+    {
+        "title": "Android Shopping App",
+        "image": "/assets/androidapp.png",
+        "tech": "Java, Android Studio, Trello",
+        "desc": "A simple shopping app built in Android Studio with a team of 3. Users can log in as customer, employee, or admin.",
+        "github": "https://github.com/MochiTarts/CSCB07AndroidProject",
+        "link": ""
+    },
+    {
+        "title": "Heir to the Throne",
+        "image": "/assets/game.png",
+        "tech": "Html, CSS, Javascript",
+        "desc": "A point-and-click puzzle game made from vanilla HTML and JS. Players explore rooms and find clues to out the traitor amongst the royal family.",
+        "github": "https://github.com/MochiTarts/HeirToTheThrone",
+        "link": ""
+    }
+]

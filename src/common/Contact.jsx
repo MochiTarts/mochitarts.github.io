@@ -5,15 +5,18 @@ import Alert from '@material-ui/lab/Alert';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 
-const sendMail = () => {
-    document.getElementById('thankyou').style.opacity = '1';
-    setTimeout(function() {
-        document.getElementById('thankyou').style.opacity = '0';
-    }, 3000)
-};
-
-const dismissAlert = () => {
-    document.getElementById('thankyou_alert').style.opacity = '0';
+const success = () => {
+    const email = document.getElementById('email');
+    const message = document.getElementById('message');
+    const name = document.getElementById('name');
+    if (email && email.value.length > 0
+        && message && message.value.length > 0
+        && name && name.value.length > 0) {
+        document.getElementById('thankyou').style.opacity = '1';
+        setTimeout(function() {
+            document.getElementById('thankyou').style.opacity = '0';
+        }, 3000)
+    }
 };
 
 const useStyles = makeStyles((theme) => ({
@@ -101,7 +104,7 @@ const Contact = () => {
                                     />
                                 </Grid>
                             </Grid>
-                            <Button variant="contained" type="submit" onClick={sendMail}>Send</Button>
+                            <Button variant="contained" type="submit" onClick={success}>Send</Button>
                             <Button variant="contained" type="reset">Clear</Button>
                         </form>
                     </div>

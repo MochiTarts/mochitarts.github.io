@@ -78,7 +78,7 @@ const Experience = () => {
                                 University of Toronto
                             </Typography>
                             <Typography variant="overline">
-                                Sept 2018 - Apr 2022
+                                Sept 2018 - Apr 2023
                             </Typography>
                             <Divider style={{ background: '#c5c6c7', width: '150px' }} />
                             <Typography variant="body1">Honours Bachelor of Science</Typography>

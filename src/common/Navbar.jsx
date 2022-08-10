@@ -36,7 +36,27 @@ const goToExperience = (isMobile) => {
     if (isMobile) {
         document.getElementById('myNav').style.width = '0%';
     }
-}
+};
+
+const goToProjects = (isMobile) => {
+    const el = document.getElementById('projects');
+    el.scrollIntoView({
+        behavior: 'smooth'
+    });
+    if (isMobile) {
+        document.getElementById('myNav').style.width = '0%';
+    }
+};
+
+const goToContacts = (isMobile) => {
+    const el = document.getElementById('contact');
+    el.scrollIntoView({
+        behaviour: 'smooth'
+    });
+    if (isMobile) {
+        document.getElementById('myNav').style.width = '0%';
+    }
+};
 
 const useScrollHandler = () => {
     const [scroll, setScroll] = React.useState(false);
@@ -92,10 +112,10 @@ const Navbar = () => {
                     <Link className="nav-link" to="" onClick={() => goToExperience(isMobile)}>Experience</Link>
                 </span>
                 <span className="nav-item">
-                    <Link className="nav-link" to="">Projects</Link>
+                    <Link className="nav-link" to="" onClick={() => goToProjects(isMobile)}>Projects</Link>
                 </span>
                 <span className="nav-item">
-                    <Link className="nav-link" to="">Contact</Link>
+                    <Link className="nav-link" to="" onClick={() => goToContacts(isMobile)}>Contact</Link>
                 </span>
             </nav>
             :
@@ -107,8 +127,8 @@ const Navbar = () => {
                         <Link to="" onClick={() => goToTop(isMobile)}>Home</Link>
                         <Link to="" onClick={() => goToSkills(isMobile)}>Skills</Link>
                         <Link to="" onClick={() => goToExperience(isMobile)}>Experience</Link>
-                        <Link to="">Projects</Link>
-                        <Link to="">Contact</Link>
+                        <Link to="" onClick={() => goToProjects(isMobile)}>Projects</Link>
+                        <Link to="" onClick={() => goToContacts(isMobile)}>Contact</Link>
                     </div>
                 </nav>
             </div>

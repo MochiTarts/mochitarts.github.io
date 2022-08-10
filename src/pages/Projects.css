@@ -1,0 +1,17 @@
+.projects-summary-container {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-bottom: 75px;
+}
+
+.icons {
+    color: #c5c6c7;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 30px;
+}
+
+.icons:hover {
+    color: #66fcf1;
+	cursor: pointer;
+}
