@@ -160,12 +160,21 @@
 
 }
 
+@media screen and (max-width: 600px) {
+
+.title-wrapper h1 {
+    line-height: 3.5rem;
+}
+    
+}
+
 
 @media screen and (max-width: 550px) {
 
 /* ABOUT */
 .title-wrapper h1, .section-title h1 {
     font-size: 40px;
+    line-height: normal;
 }
 
 .title-wrapper h2 {
@@ -181,13 +190,5 @@
     height: 250px;
 }
 /* ABOUT */
-
-@media screen and (max-width: 421px) {
-
-.title-wrapper h1 {
-    line-height: 2.5rem;
-}
-
-}
 
 }

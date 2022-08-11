@@ -4,13 +4,14 @@ const useMediaQuery = (query) => {
     const [matches, setMatches] = React.useState(false);
 
     React.useEffect(() => {
-        const matchQuery = window.matchMedia(query);
-        const onChange = (e) => {
-            setMatches(e.matches);
+        const mediaQuery = window.matchMedia(query);
+        if (mediaQuery.matches !== matches) {
+            setMatches(mediaQuery.matches);
         }
-        matchQuery.addEventListener("change", onChange);
+        const onChange = () => setMatches(mediaQuery.matches);
+        window.addEventListener('resize', onChange);
 
-        return () => matchQuery.removeEventListener("change", onChange);
+        return () => window.removeEventListener('resize', onChange);
     }, [query]);
 
     return matches;
